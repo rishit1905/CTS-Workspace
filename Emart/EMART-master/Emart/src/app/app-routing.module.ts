@@ -10,6 +10,8 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { SellerLoginComponent } from './seller-login/seller-login.component';
 import { SellerSignUpComponent } from './seller-sign-up/seller-sign-up.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 
 const routes: Routes = [{path:"",component:ProductComponent}, 
@@ -18,7 +20,9 @@ const routes: Routes = [{path:"",component:ProductComponent},
 {path:"sb",component:SubCategoryComponent},
 {path:"el",component:ElecroinicsComponent},
 {path:"cart",component:CartComponent},
-// {path:"el/ct",component:CartComponent},
+{path:"el/ct",component:CartComponent},
+{path:"cart/cko",component:CheckoutComponent},
+{path:"cart/cko/tk",component:ThankYouComponent},
 {path:"login",component:LoginComponent},
 {path:"slogin",component:SellerLoginComponent},
 {path:"signup",component: SignUpComponent},

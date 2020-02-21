@@ -18,6 +18,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { SellerLoginComponent } from './seller-login/seller-login.component';
 import { SellerSignUpComponent } from './seller-sign-up/seller-sign-up.component';
 import { ProductService } from './services/product.service';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { ThankYouComponent } from './thank-you/thank-you.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { ProductService } from './services/product.service';
     LoginComponent,
     SignUpComponent,
     SellerLoginComponent,
-    SellerSignUpComponent
+    SellerSignUpComponent,
+    CheckoutComponent,
+    ThankYouComponent
   ],
   imports: [
     BrowserModule,
