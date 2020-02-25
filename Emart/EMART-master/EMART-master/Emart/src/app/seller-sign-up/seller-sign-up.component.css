@@ -234,8 +234,10 @@ input[type=email]:placeholder, input[type=password]:placeholder {
 *:focus {
 	  outline: none;
   } 
-
-.rounded-circle {
+  
+#icon {
+	border-radius: 50%;
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
+  
