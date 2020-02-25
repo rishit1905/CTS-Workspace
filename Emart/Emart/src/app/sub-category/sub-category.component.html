@@ -1,0 +1,45 @@
+<h3>Product List</h3>
+  <div *ngFor="let product of products">
+    <div class="col-md-3">
+      <figure class="card card-product">
+        <div class="img-wrap"> 
+          <img src="assets/{{product.photo}}">
+
+        </div>
+        <figcaption class="info-wrap">
+          <h6 class="title text-dots"><a href="#">{{product.name}}</a></h6>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="action-wrap">
+            <a href="#" class="btn btn-primary btn-sm float-right" [routerLink]="['/cart', { id:product.id }]"> Order </a>
+            <div class="price-wrap h5">
+              <span class="price-new"> ${{product.price}}</span>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- action-wrap -->
+        </figcaption>
+      </figure> <!-- card // -->
+    </div> 
+</div>
+  
+        
+            
+              
+<!-- 
+<h3>Product List</h3>
+<table>
+  <tr>
+    <th>Photo</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Buy</th>
+  </tr>
+  <tr *ngFor="let product of products">
+    <td>
+      <img src="assets/{{product.photo}}" width="50">
+    </td>
+    <td>{{product.name}}</td>
+    <td>{{product.price}}</td>
+    <td>
+      <a [routerLink]="['/cart', { id:product.id }]">Add To</a>
+    </td>
+  </tr>
+</table> -->
