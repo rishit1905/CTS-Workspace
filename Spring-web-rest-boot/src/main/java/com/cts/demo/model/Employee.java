@@ -24,6 +24,7 @@ import org.springframework.format.annotation.DateTimeFormat.ISO;
 @Table(name="employees")
 public class Employee {
 
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long empId;
