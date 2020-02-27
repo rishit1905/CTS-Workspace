@@ -1,0 +1,6 @@
+CREATE TABLE guitars(
+	guitarmodel CHAR(5) PRIMARY KEY,
+	guitarname VARCHAR(15) NOT NULL,
+	price DECIMAL(9,2) NOT NULL,
+	dateadded date NOT NULL
+);

@@ -1,0 +1,6 @@
+create table book (
+	bid char(4) primary key,
+	bname varchar(15) not null,
+	bprice decimal(6,2) not null,
+	pdate date not null
+);
