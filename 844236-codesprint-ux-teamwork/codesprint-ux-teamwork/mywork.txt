@@ -1,0 +1,24 @@
+My associate id:
+844236
+Other team members:
+844226, 844271, 844224
+Team lead:
+844226
+My Role in team:
+1. To develop homepage and contact us component and integrate
+My development files:
+1. contact-us component
+2. header component
+3. logo component
+4.main content component
+5.nav bar component
+6.side bar component
+7.bootstrap, jquery, popper configuration
+I was strong in:
+1. Reactive Forms and Forms Validation
+2. HttpClient
+3. Documentation
+I was weak in:
+1. Debugging
+Feedback:
+1. Able to read codesprint document 1 day in advance will help.
