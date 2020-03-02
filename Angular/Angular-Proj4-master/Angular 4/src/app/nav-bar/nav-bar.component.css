@@ -1,0 +1,28 @@
+nav{
+    text-align: center;
+    background-color: #f55656;
+    color: black ;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+nav a{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 3px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+nav:hover{
+    background-color: cornsilk;
+}

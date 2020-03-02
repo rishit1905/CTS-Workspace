@@ -1,0 +1,34 @@
+<section>
+    <h2>Pipes Demo</h2>
+    <div>
+        <h3>Strong Pipes</h3>
+        <p><strong>Original: </strong><strong>{{strData}}</strong></p>
+        <p><strong>Upper: </strong><strong>{{strData|uppercase}}</strong></p>
+        <p><strong>Lower: </strong><strong>{{strData|lowercase}}</strong></p>
+    </div>
+
+    <div>
+        <h3>Numeric Pipes</h3>
+        <p><strong>Original: </strong><strong>{{numData}}</strong></p>
+        <p><strong>4 non-decimal and 4 decimal digits: </strong><strong>{{numData|number:'4.0-4'}}</strong></p>
+        <p><strong>Percent: </strong><strong>{{numData|percent}}</strong></p>
+        <p><strong>Indian Rupees: </strong><strong>{{numData|currency:'INR'}}</strong></p>
+        <p><strong>USD: </strong><strong>{{numData|currency:'USD'}}</strong></p>
+        <p><strong>Unknown Currency: </strong><strong>{{numData|currency:'X'}}</strong></p>
+    </div>
+
+    <div>
+        <h3>Date Pipes</h3>
+        <p><strong>Original: </strong><strong>{{date}}</strong></p>
+        <p><strong>Short form: </strong><strong>{{date|date:'short'}}</strong></p>
+        <p><strong>Long form: </strong><strong>{{date|date:'long'}}</strong></p>
+        <p><strong>Custom form (dd-MMM-yyyy): </strong><strong>{{date|date:'dd-MMM-yyyy'}}</strong></p>
+        <p><strong>Custom form (hh:mm:ss a): </strong><strong>{{date|date:'hh:mm:ss a'}}</strong></p>
+        <p><strong>Custom form (HH:mm:ss): </strong><strong>{{date|date:'HH:mm::ss'}}</strong></p>
+    </div>
+
+    <div>
+        <p><strong>1024 verbally is </strong>
+        <strong><em>{{1024|verbal}}</em></strong></p>
+    </div>
+</section>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  CALCULATOR:<br>
+  Enter First Number:
+  <input type="number" placeholder="type 1st number" [(ngModel)]="firstNumber"/><br>
+  Enter Second Number:
+  <input type="number" placeholder="type 2nd number" [(ngModel)]="secondNumber"/><br>
+  Result:
+  <input type="number" disabled [(ngModel)]="result">
+  <button (click)="add()">+</button>
+  <button (click)="subtract()">-</button>
+  <button (click)="mul()">*</button>
+  <button (click)="div()">/</button>
+</body>
+</html>
