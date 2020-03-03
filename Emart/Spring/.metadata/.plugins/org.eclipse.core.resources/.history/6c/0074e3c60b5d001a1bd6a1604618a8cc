@@ -1,0 +1,10 @@
+package com.cts.emart.model;
+
+import java.util.Set;
+
+public class Cart {
+	private int cartId;
+	private Customer customer;
+	private Set<Product> product;
+	private int quantity;
+}

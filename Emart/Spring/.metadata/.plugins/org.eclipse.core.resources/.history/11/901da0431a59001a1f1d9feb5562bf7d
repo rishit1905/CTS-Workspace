@@ -1,0 +1,11 @@
+package com.cts.demo;
+
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class) // a bridge b/w Spring Boot test features and junit
+@DataJpaTest
+public class EmployeeDaoUnitTest {
+
+}

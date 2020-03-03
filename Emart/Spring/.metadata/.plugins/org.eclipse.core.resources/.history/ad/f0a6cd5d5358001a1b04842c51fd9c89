@@ -1,0 +1,11 @@
+package com.cts.demo.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.cts.demo.model.AppUserEntity;
+
+public interface AppUserEntityRepository extends CrudRepository<AppUserEntity, Integer> {
+
+	AppUserEntity findByUsername(String username);
+	boolean existsByUsername(String username);
+}

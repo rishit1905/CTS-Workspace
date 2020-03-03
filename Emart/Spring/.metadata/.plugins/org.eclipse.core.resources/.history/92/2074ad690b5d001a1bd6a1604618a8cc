@@ -1,0 +1,12 @@
+package com.cts.emart.model;
+
+public class Seller {
+	private int sellerId;
+	private String sellerName;
+	private String mobileNumber;
+	private String email;
+	private int Stock;
+	private String companyName;
+	private String aboutCompany;
+	private Product product;
+}

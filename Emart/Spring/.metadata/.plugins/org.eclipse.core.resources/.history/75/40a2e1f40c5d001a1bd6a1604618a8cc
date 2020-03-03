@@ -1,0 +1,11 @@
+package com.cts.emart.model;
+
+import java.time.LocalDate;
+
+public class Discount {
+	private int discountId;
+	private double percentage;
+	private LocalDate startDate;
+	private LocalDate endDate;
+	private int maxCount;
+}

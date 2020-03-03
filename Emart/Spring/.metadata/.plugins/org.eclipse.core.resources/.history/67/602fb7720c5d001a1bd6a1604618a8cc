@@ -1,0 +1,13 @@
+package com.cts.emart.model;
+
+import java.time.LocalDate;
+
+public class Transaction {
+	private int transactionId;
+	private double amount;
+	private LocalDate transactionDate;
+	private String transactionType;
+	private Checkout checkout;
+	private Customer customer;
+	private String description;
+}
