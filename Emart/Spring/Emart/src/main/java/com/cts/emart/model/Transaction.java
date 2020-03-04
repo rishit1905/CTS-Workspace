@@ -2,6 +2,8 @@ package com.cts.emart.model;
 
 import java.time.LocalDate;
 
+import com.cts.emart.entity.Bill;
+
 public class Transaction {
 	private int transactionId;
 	private double amount;

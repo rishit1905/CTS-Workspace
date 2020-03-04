@@ -1,11 +1,28 @@
 package com.cts.emart.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 import com.cts.emart.model.Role;
 
+@Entity
+@Table(name = "EMART_USERS")
 public class EmartUsers {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int userId;
+	
+	@Column(name="UNM", nullable = false)
 	private String userName;
+	
+	@Column(name="PWD", nullable = false)
 	private String password;
+	
 	private Role role;
 	private String jwtToken;
 	
@@ -39,6 +56,5 @@ public class EmartUsers {
 	public void setJwtToken(String jwtToken) {
 		this.jwtToken = jwtToken;
 	}
-	
 	
 }

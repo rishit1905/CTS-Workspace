@@ -1,10 +1,26 @@
 package com.cts.emart.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="CUSTOMERS")
 public class Address {
+	
+	@Column(name = "DNO", nullable = false)
 	private String doorNumber;
+	
+	@Column(name = "STRT", nullable = false)
 	private String street;
+	
+	@Column(name = "CITY", nullable = false)
 	private String city;
+	
+	@Column(name = "STATE", nullable = false)
 	private String state;
+	
+	@Column(name = "PIN", nullable = false)
 	private String pincode;
 	
 	public String getDoorNumber() {

@@ -2,16 +2,40 @@ package com.cts.emart.entity;
 
 import java.time.LocalDate;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.cts.emart.model.Bill;
 import com.cts.emart.model.TxnType;
 
+@Entity
+@Table(name="TRANSACTIONS")
 public class Transaction {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int transactionId;
+	
+	@Column(name="AMT", nullable = false)
 	private double amount;
+	
+	@Column(name="TXNDT", nullable = false)
 	private LocalDate transactionDate;
+	
+	@Column(name="TTYPE", nullable = false)
 	private TxnType transactionType;
+	
 	private Checkout checkout;
+	
+	@Column(name="DSCP")
 	private String description;
+	
 	private Bill bill;
+	
 	public int getTransactionId() {
 		return transactionId;
 	}

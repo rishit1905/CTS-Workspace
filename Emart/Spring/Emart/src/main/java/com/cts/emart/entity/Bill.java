@@ -2,9 +2,28 @@ package com.cts.emart.entity;
 
 import java.time.LocalDate;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.cts.emart.model.Checkout;
+import com.cts.emart.model.Customer;
+import com.cts.emart.model.Seller;
+
+@Entity
+@Table(name="BILLS")
 public class Bill {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int BillId;
+	
+	@Column(name="BDT", nullable = false)
 	private LocalDate billDate;
+	
 	private Customer customer;
 	private Seller seller;
 	private Checkout checkout;

@@ -1,5 +1,7 @@
 package com.cts.emart.model;
 
+import com.cts.emart.entity.Cart;
+
 public class Checkout {
 	private int checkoutId;
 	private double grossTotalAmount;

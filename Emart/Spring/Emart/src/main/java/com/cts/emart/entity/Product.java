@@ -1,10 +1,29 @@
 package com.cts.emart.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="PRODUCTS")
 public class Product {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int productId;
+	
+	@Column(name="PNM", nullable = false)
 	private String productName;
+	
+	@Column(name="PRICE", nullable = false)
 	private double price;
+	
+	@Column(name="PDESC", nullable = false)
 	private String description;
+	
 	private Category category;
 	private SubCategory subCategory;
 	

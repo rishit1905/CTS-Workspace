@@ -2,10 +2,28 @@ package com.cts.emart.entity;
 
 import java.util.Set;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.cts.emart.model.Customer;
+import com.cts.emart.model.Product;
+
+@Entity
+@Table(name="CART")
 public class Cart {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int cartId;
+	
 	private Customer customer;
 	private Set<Product> product;
+	
+	@Column(name="QTY", nullable = false)
 	private int quantity;
 	
 	public int getCartId() {

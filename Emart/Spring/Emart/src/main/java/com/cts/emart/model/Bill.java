@@ -2,6 +2,10 @@ package com.cts.emart.model;
 
 import java.time.LocalDate;
 
+import com.cts.emart.entity.Checkout;
+import com.cts.emart.entity.Customer;
+import com.cts.emart.entity.Seller;
+
 public class Bill {
 	private int BillId;
 	private LocalDate billDate;

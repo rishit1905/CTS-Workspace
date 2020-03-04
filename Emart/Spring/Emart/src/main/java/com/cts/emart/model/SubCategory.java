@@ -1,5 +1,7 @@
 package com.cts.emart.model;
 
+import com.cts.emart.entity.Category;
+
 public class SubCategory {
 	private String subCategoryId;
 	private String subCategoryName;

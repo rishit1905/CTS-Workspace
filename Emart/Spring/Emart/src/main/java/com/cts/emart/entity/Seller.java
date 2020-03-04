@@ -2,14 +2,39 @@ package com.cts.emart.entity;
 
 import java.util.Set;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="SELLERS")
 public class Seller {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int sellerId;
+	
+	@Column(name = "SNM", nullable=false)
 	private String sellerName;
+	
+	@Column(name = "MBN", nullable=false)
 	private String mobileNumber;
+	
+	@Column(name = "EML", nullable=false)
 	private String email;
+	
+	@Column(name = "STOCK", nullable=false)
 	private int Stock;
+	
+	@Column(name = "CPNAME", nullable=false)
 	private String companyName;
+	
+	@Column(name = "ABOUTC", nullable=false)
 	private String aboutCompany;
+	
 	private Set<Product> product;
 	
 	public int getSellerId() {

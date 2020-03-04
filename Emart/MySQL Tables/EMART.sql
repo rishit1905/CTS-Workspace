@@ -1,9 +1,3 @@
-create database emart;
-
-use emart;
-show tables;
-drop table Customers;
-
 create table EMART_USERS(
 	UID int primary key auto_increment,
     UNM varchar(30) not null unique,
@@ -30,13 +24,13 @@ show tables;
     
 CREATE TABLE CATEGORIES (
     CTID int primary key auto_increment,
-    CTNM varchar(200) not null,
+    CTNM varchar(200) not null unique,
     DSCP varchar(1000)
 );
 
 CREATE TABLE SUB_CATEGORIES (
     SBID int primary key auto_increment,
-    SBNM varchar(200) not null,
+    SBNM varchar(200) not null unique,
     DSCP varchar(1000),
     CTID int references CATEGORIES(CTID)
 );
@@ -80,22 +74,22 @@ CREATE TABLE PRODUCTS_CART (
 CREATE TABLE CHECKOUT (
 	CHKID int primary key auto_increment,
 	CRTID int references CART(CRTID),
-	GTA numeric,
+	GTA numeric not null,
     -- GST AMOUNT
-    GST numeric,
+    GST numeric not null,
     -- DISCOUNT AMOUNT
     DSAMT numeric,
     -- NET PAYABLE AMOUNT
-    NPA numeric,
+    NPA numeric not null,
     DSID int references DISCOUNTS(DSID)
 );
 
 create table TRANSACTIONS(
 	TXNID int primary key auto_increment,
     CHKID int references CHECKOUT(CHKID),
-    AMT numeric,
-    TXNDT date,
-    TTYPE int,
+    AMT numeric not null,
+    TXNDT date not null,
+    TTYPE int not null,
     CSID int references CUSTOMERS(CSID),
     DSCP varchar(250)
 );
@@ -115,7 +109,13 @@ CREATE TABLE SELLERS(
     EML varchar(200) not null,
    	PID int references PRODUCTS(PID),
     STOCK int not null,
-	CPNAME varchar(200) not null,
+	CPNAME varchar(200) not null unique,
     ABOUTC varchar(500) not null,
     UID int references EMART_USERS(UID)
 );
+
+show tables;
+create database emart;
+use emart;
+drop table checkout;
+drop database emart;
