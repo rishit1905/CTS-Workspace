@@ -5,22 +5,19 @@ create table EMART_USERS(
     ROLE varchar(30) not null
 );
 
-drop table customers;
 CREATE TABLE CUSTOMERS (
     CSID int primary key auto_increment,
     FNM varchar(150) not null,
     LNM varchar(150) not null,
+	UID int references EMART_USERS(UID),
     EML varchar(200) not null,
     MBN char(10) not null,
     DNO varchar(20) not null,
     STRT varchar(150) not null,
     CITY varchar(150) not null,
     STATE varchar(150) not null,
-    PIN char(6) not null,
-    UID int references EMART_USERS(UID)
+    PIN char(6) not null
 );
-
-show tables;
     
 CREATE TABLE CATEGORIES (
     CTID int primary key auto_increment,
@@ -31,32 +28,37 @@ CREATE TABLE CATEGORIES (
 CREATE TABLE SUB_CATEGORIES (
     SBID int primary key auto_increment,
     SBNM varchar(200) not null unique,
-    DSCP varchar(1000),
-    CTID int references CATEGORIES(CTID)
+    CTID int references CATEGORIES(CTID),
+    DSCP varchar(1000)
 );
 
 CREATE TABLE PRODUCTS (
     PID int primary key auto_increment,
+    CTID int references CATEGORIES(CTID),
+    SBID int references SUB_CATEGORIES(SBID),
     PNM varchar(200) not null,
     PRICE numeric not null,
     PDESC varchar(600) not null,
-    CTID int references CATEGORIES(CTID),
-    SBID int references SUB_CATEGORIES(SBID)
+    STOCK int not null
+);
+
+CREATE TABLE PURCHASE_HISTORY (
+	PRID int primary key auto_increment,
+    CSID int references CUSTOMERS(CSID),
+    SID int references SELLERS(SID),
+    TXNID int references TRANSACTIONS(TXNID),
+	PID int references PRODUCTS(PID),
+    QTY int not null,
+    PDT date not null
 );
 
 create table DISCOUNTS(
 	DSID int primary key auto_increment,
+    DSCODE char(5) not null unique,
     PRCT numeric not null,
     SDT date not null,
     EDT date not null,
-    MAXC int
-);
-
-CREATE TABLE CART (
-    CRTID int primary key auto_increment,
-    CSID int references CUSTOMERS(CSID),
-    PID int references PRODUCTS(PID),
-    QTY int not null
+    DSDESC varchar(250)
 );
 
 CREATE TABLE CUSTOMER_CATEGORY (
@@ -65,53 +67,30 @@ CREATE TABLE CUSTOMER_CATEGORY (
     PRIMARY KEY(CSID,CTID)
 );
 
-CREATE TABLE PRODUCTS_CART (
-    PID int references PRODUCTS(PID),
-    CRTID int references CART(CRTID),
-    PRIMARY KEY(PID,CRTID)
-);
-
-CREATE TABLE CHECKOUT (
-	CHKID int primary key auto_increment,
-	CRTID int references CART(CRTID),
-	GTA numeric not null,
-    -- GST AMOUNT
-    GST numeric not null,
-    -- DISCOUNT AMOUNT
-    DSAMT numeric,
-    -- NET PAYABLE AMOUNT
-    NPA numeric not null,
-    DSID int references DISCOUNTS(DSID)
-);
-
 create table TRANSACTIONS(
 	TXNID int primary key auto_increment,
-    CHKID int references CHECKOUT(CHKID),
-    AMT numeric not null,
-    TXNDT date not null,
-    TTYPE int not null,
-    CSID int references CUSTOMERS(CSID),
-    DSCP varchar(250)
-);
-
-CREATE TABLE BILLS (
-    BID int primary key auto_increment,
     CSID int references CUSTOMERS(CSID),
     SID int references SELLERS(SID),
-    BDT datetime not null,
-    CHKID int references CHECKOUT(CHKID)
+    TTYPE int not null,
+    AMT numeric not null,
+    TXNDT date not null,
+    DSCP varchar(250)
 );
 
 CREATE TABLE SELLERS(
 	SID int primary key auto_increment,
 	SNM varchar(150) not null,
-	MBN char(10) not null,
-    EML varchar(200) not null,
-   	PID int references PRODUCTS(PID),
-    STOCK int not null,
-	CPNAME varchar(200) not null unique,
+    UID int references EMART_USERS(UID),
+    CPNAME varchar(200) not null unique,
+	GSTIN char(15) not null unique,
     ABOUTC varchar(500) not null,
-    UID int references EMART_USERS(UID)
+    EML varchar(200) not null,
+	MBN char(10) not null,
+	DNO varchar(20) not null,
+    STRT varchar(150) not null,
+    CITY varchar(150) not null,
+    STATE varchar(150) not null,
+    PIN char(6) not null
 );
 
 show tables;

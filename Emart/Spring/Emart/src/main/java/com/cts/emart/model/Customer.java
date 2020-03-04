@@ -8,10 +8,45 @@ public class Customer {
 	private String lastName;
 	private String email;
 	private String mobileNumber;
-	private Address address;
+	private String doorNumber;
+	private String street;
+	private String city;
+	private String state;
+	private String pincode;
+	
 	private EmartUsers userAccount;
 	private Set<Transaction> transaction;
 	
+	public String getDoorNumber() {
+		return doorNumber;
+	}
+	public void setDoorNumber(String doorNumber) {
+		this.doorNumber = doorNumber;
+	}
+	public String getStreet() {
+		return street;
+	}
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public String getPincode() {
+		return pincode;
+	}
+	public void setPincode(String pincode) {
+		this.pincode = pincode;
+	}
 	public int getCustomerId() {
 		return customerId;
 	}
@@ -41,12 +76,6 @@ public class Customer {
 	}
 	public void setMobileNumber(String mobileNumber) {
 		this.mobileNumber = mobileNumber;
-	}
-	public Address getAddress() {
-		return address;
-	}
-	public void setAddress(Address address) {
-		this.address = address;
 	}
 	public EmartUsers getUserAccount() {
 		return userAccount;

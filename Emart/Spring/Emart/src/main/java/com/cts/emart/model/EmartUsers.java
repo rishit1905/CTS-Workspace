@@ -1,16 +1,17 @@
 package com.cts.emart.model;
 
 public class EmartUsers {
-	private int userId;
+	
+	private Integer userId;
 	private String userName;
 	private String password;
 	private Role role;
-	private String jwtToken;
 	
-	public int getUserId() {
+	
+	public Integer getUserId() {
 		return userId;
 	}
-	public void setUserId(int userId) {
+	public void setUserId(Integer userId) {
 		this.userId = userId;
 	}
 	public String getUserName() {
@@ -31,12 +32,7 @@ public class EmartUsers {
 	public void setRole(Role role) {
 		this.role = role;
 	}
-	public String getJwtToken() {
-		return jwtToken;
-	}
-	public void setJwtToken(String jwtToken) {
-		this.jwtToken = jwtToken;
-	}
+
 	
 	
 }

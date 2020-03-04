@@ -1,15 +1,20 @@
 package com.cts.emart.model;
 
-import com.cts.emart.entity.Category;
-
 public class Product {
 	private int productId;
 	private String productName;
 	private double price;
 	private String description;
+	private int stock;
 	private Category category;
 	private SubCategory subCategory;
 	
+	public int getStock() {
+		return stock;
+	}
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
 	public int getProductId() {
 		return productId;
 	}

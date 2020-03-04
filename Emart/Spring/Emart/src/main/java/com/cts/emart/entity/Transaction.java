@@ -9,7 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.cts.emart.model.Bill;
 import com.cts.emart.model.TxnType;
 
 @Entity
@@ -29,12 +28,9 @@ public class Transaction {
 	@Column(name="TTYPE", nullable = false)
 	private TxnType transactionType;
 	
-	private Checkout checkout;
-	
 	@Column(name="DSCP")
 	private String description;
 	
-	private Bill bill;
 	
 	public int getTransactionId() {
 		return transactionId;
@@ -60,23 +56,12 @@ public class Transaction {
 	public void setTransactionType(TxnType transactionType) {
 		this.transactionType = transactionType;
 	}
-	public Checkout getCheckout() {
-		return checkout;
-	}
-	public void setCheckout(Checkout checkout) {
-		this.checkout = checkout;
-	}
 	public String getDescription() {
 		return description;
 	}
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Bill getBill() {
-		return bill;
-	}
-	public void setBill(Bill bill) {
-		this.bill = bill;
-	}
+
 	
 }

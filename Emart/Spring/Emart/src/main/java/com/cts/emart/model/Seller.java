@@ -7,11 +7,61 @@ public class Seller {
 	private String sellerName;
 	private String mobileNumber;
 	private String email;
-	private int Stock;
 	private String companyName;
 	private String aboutCompany;
+	private String gstIN;
+	private String doorNumber;
+	private String street;
+	private String city;
+	private String state;
+	private String pincode;
+	
+	private EmartUsers userAccount;
+	
+	public String getGstIN() {
+		return gstIN;
+	}
+	public void setGstIN(String gstIN) {
+		this.gstIN = gstIN;
+	}
+	public EmartUsers getUserAccount() {
+		return userAccount;
+	}
+	public void setUserAccount(EmartUsers userAccount) {
+		this.userAccount = userAccount;
+	}
 	private Set<Product> product;
 	
+	public String getDoorNumber() {
+		return doorNumber;
+	}
+	public void setDoorNumber(String doorNumber) {
+		this.doorNumber = doorNumber;
+	}
+	public String getStreet() {
+		return street;
+	}
+	public void setStreet(String street) {
+		this.street = street;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public String getPincode() {
+		return pincode;
+	}
+	public void setPincode(String pincode) {
+		this.pincode = pincode;
+	}
 	public int getSellerId() {
 		return sellerId;
 	}
@@ -35,12 +85,6 @@ public class Seller {
 	}
 	public void setEmail(String email) {
 		this.email = email;
-	}
-	public int getStock() {
-		return Stock;
-	}
-	public void setStock(int stock) {
-		Stock = stock;
 	}
 	public String getCompanyName() {
 		return companyName;
