@@ -1,9 +1,0 @@
-package com.cts.demo.model;
-
-import java.io.Serializable;
-
-public class AppUserModel implements Serializable {
-	private static final long serialVersionUID = 8249261126864947305L;
-	private String username;
-	private String password;
-}

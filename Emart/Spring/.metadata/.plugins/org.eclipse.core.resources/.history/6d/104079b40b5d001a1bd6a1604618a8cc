@@ -1,8 +1,0 @@
-package com.cts.emart.model;
-
-public class Cart {
-	private int cartId;
-	private Customer customer;
-	private Product product;
-	private int quantity;
-}

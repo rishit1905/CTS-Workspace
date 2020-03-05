@@ -1,5 +1,0 @@
-server.port=7997
-
-# db config
-spring.jpa.show-sql=true
-spring.jpa.hibernate.ddl-auto=create

@@ -1,8 +1,0 @@
-package com.cts.emart.model;
-
-public class SubCategory {
-	private String subCategoryId;
-	private String subCategoryName;
-	private String description;
-	private Category category;
-}
