@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.cts.service.SearchItemService"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.cts.repo.SearchItemRepository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="com.cts.entity.SubCategory"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+<fullyQualifiedTypeName name="com.cts.entity.Product"/>
+</qualifiedTypeNameHistroy>

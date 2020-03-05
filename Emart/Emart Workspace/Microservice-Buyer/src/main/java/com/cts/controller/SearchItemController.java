@@ -27,10 +27,10 @@ public class SearchItemController {
 		return service.searchById(id);
 	}
 	
-//	@RequestMapping("/products/{name}")
-//	List<Product> searchByName(@PathVariable String name){
-//		return (List<Product>)service.searchByName(name);
-//	}
+	@RequestMapping("/product/products/{productName}")
+	Product searchByName(@PathVariable String productName){
+		return (Product) service.searchByName(productName);
+	}
 	
 //	searchByCategory(){}
 //	

@@ -569,3 +569,181 @@
 2020-03-05 01:35:02,606 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-03-05 01:35:02,609 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-03-05 01:35:02,609 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 02:59:53,970 [Worker-84: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Discovery-Server:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\pom.xml.
+2020-03-05 03:00:01,019 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/main/java
+2020-03-05 03:00:01,020 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:00:01,034 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:00:01,050 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/test/java
+2020-03-05 03:00:06,240 [Worker-84: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2020-03-05 03:00:06,242 [Worker-84: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-03-05 03:00:06,955 [Worker-84: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Discovery-Server:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\pom.xml.
+2020-03-05 03:00:08,390 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/main/java
+2020-03-05 03:00:08,390 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:00:08,393 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:00:08,398 [Worker-84: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/test/java
+2020-03-05 03:00:08,887 [Worker-84: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-03-05 03:00:10,585 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:00:10,585 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:00:10,587 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:00:10,589 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:00:10,589 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\src\test\resources
+2020-03-05 03:00:54,849 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:00:54,851 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:00:54,852 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:00:54,854 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:00:54,854 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\src\test\resources
+2020-03-05 03:01:17,175 [Worker-80: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Microservice-Buyer:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\pom.xml.
+2020-03-05 03:01:20,797 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:01:20,798 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:01:20,798 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:01:20,801 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:01:20,801 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:01:24,467 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:01:24,470 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:01:24,494 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:01:24,497 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:01:24,497 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:04:34,037 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:04:34,038 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:04:34,049 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:04:34,053 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:04:34,053 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\src\test\resources
+2020-03-05 03:04:44,159 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:04:44,160 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:04:44,165 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:04:44,169 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:04:44,170 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\src\test\resources
+2020-03-05 03:07:52,115 [Worker-86: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Microservice-Buyer:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\pom.xml.
+2020-03-05 03:07:57,136 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:07:57,137 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:07:57,137 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:07:57,140 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:07:57,140 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:08:14,379 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-03-05 03:08:19,882 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Microservice-Buyer:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\pom.xml.
+2020-03-05 03:08:20,823 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Discovery-Server:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\pom.xml.
+2020-03-05 03:08:25,376 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/main/java
+2020-03-05 03:08:25,377 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:08:25,377 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:08:25,378 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/test/java
+2020-03-05 03:08:25,835 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2020-03-05 03:08:25,840 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-03-05 03:08:26,793 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Microservice-Buyer:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\pom.xml.
+2020-03-05 03:08:28,052 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Discovery-Server:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\pom.xml.
+2020-03-05 03:08:29,274 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Microservice-Buyer/src/main/java
+2020-03-05 03:08:29,276 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Microservice-Buyer/src/main/resources
+2020-03-05 03:08:29,276 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Microservice-Buyer/src/main/resources
+2020-03-05 03:08:29,278 [Worker-88: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Microservice-Buyer/src/test/java
+2020-03-05 03:08:29,925 [Worker-88: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2020-03-05 03:08:31,055 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:08:31,056 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:08:31,086 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:08:31,089 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:08:31,089 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\src\test\resources
+2020-03-05 03:08:32,329 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:08:32,330 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:08:32,335 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:08:32,339 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:08:32,339 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:09:33,696 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:09:33,698 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:09:33,701 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:09:33,702 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:09:33,703 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\src\test\resources
+2020-03-05 03:15:53,001 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:15:53,003 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:15:53,017 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:15:53,020 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:15:53,021 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:21:09,059 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:21:09,061 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:21:09,065 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:21:09,068 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:21:09,068 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:21:18,911 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:21:18,912 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:21:18,917 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:21:18,919 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:21:18,919 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:22:17,664 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:22:17,666 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:22:17,670 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:22:17,672 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:22:17,673 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:23:47,628 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:23:47,629 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:23:47,633 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:23:47,638 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:23:47,639 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:24:16,504 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:24:16,506 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:24:16,511 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:24:16,514 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:24:16,514 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:24:33,791 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:24:33,792 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:24:33,798 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:24:33,801 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:24:33,801 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:26:22,539 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:26:22,541 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:26:22,547 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:26:22,550 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:26:22,550 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:26:43,699 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:26:43,701 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:26:43,704 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:26:43,706 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:26:43,706 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:26:52,877 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:26:52,878 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:26:52,885 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:26:52,889 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:26:52,889 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:28:30,010 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:28:30,011 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:28:30,015 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:28:30,017 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:28:30,017 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:29:19,670 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:29:19,672 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:29:19,675 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:29:19,678 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:29:19,678 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:31:50,602 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:31:50,604 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:31:50,608 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:31:50,613 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:31:50,613 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:31:54,235 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:31:54,237 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:31:54,266 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:31:54,269 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:31:54,270 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:39:39,438 [Worker-102: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-03-05 03:39:42,737 [Worker-102: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Microservice-Buyer:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\pom.xml.
+2020-03-05 03:39:47,454 [Worker-102: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts:Discovery-Server:0.0.1-SNAPSHOT @ C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\pom.xml.
+2020-03-05 03:39:48,798 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/main/java
+2020-03-05 03:39:48,798 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:39:48,798 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Discovery-Server/src/main/resources
+2020-03-05 03:39:48,799 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Discovery-Server/src/test/java
+2020-03-05 03:39:49,221 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Microservice-Buyer/src/main/java
+2020-03-05 03:39:49,221 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Microservice-Buyer/src/main/resources
+2020-03-05 03:39:49,222 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Microservice-Buyer/src/main/resources
+2020-03-05 03:39:49,222 [Worker-102: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Microservice-Buyer/src/test/java
+2020-03-05 03:39:49,920 [Worker-102: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2020-03-05 03:39:51,156 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:39:51,157 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:39:51,184 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:39:51,188 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:39:51,188 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Discovery-Server\src\test\resources
+2020-03-05 03:39:53,694 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:39:53,695 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:39:53,697 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:39:53,699 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:39:53,700 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources
+2020-03-05 03:42:48,626 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:42:48,630 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-05 03:42:48,634 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-05 03:42:48,637 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-05 03:42:48,637 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alchemy\Documents\Emart Workspace\Microservice-Buyer\src\test\resources

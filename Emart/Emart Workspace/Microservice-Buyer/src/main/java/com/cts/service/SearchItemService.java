@@ -23,8 +23,8 @@ public class SearchItemService {
 		return (List<Product>) repo.findAll();
 	}
 
-//	public List<Product> searchByName(String name) {
-//		return repo.findAllByName(name);
-//	}
+	public Product searchByName(String productName) {
+		return (Product) repo.findByProductName(productName);
+	}
 
 }
