@@ -2,17 +2,16 @@ package com.w.training;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableEurekaClient
-public class BookCatalogServiceApplication {
+@EnableCircuitBreaker
+public class BookAppServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookCatalogServiceApplication.class, args);
+		SpringApplication.run(BookAppServiceApplication.class, args);
 	}
 	
 	
@@ -20,5 +19,6 @@ public class BookCatalogServiceApplication {
 	RestTemplate getRestTemplate(){
 		return new RestTemplate();
 	}
+	
 
 }
