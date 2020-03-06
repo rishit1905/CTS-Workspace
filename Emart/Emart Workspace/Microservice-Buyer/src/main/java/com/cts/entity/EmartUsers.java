@@ -2,6 +2,7 @@ package com.cts.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,6 +17,7 @@ public class EmartUsers {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name="UID")
 	private Integer id;
 	
 	@Column(name="UNM", nullable = false)
@@ -24,7 +26,7 @@ public class EmartUsers {
 	@Column(name="PWD", nullable = false)
 	private String password;
 	
-	@Enumerated
+	@Enumerated(EnumType.STRING)
 	@Column(name="ROLE", nullable = false)
 	private Role role;
 	

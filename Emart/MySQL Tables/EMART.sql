@@ -98,3 +98,5 @@ create database emart;
 use emart;
 drop table checkout;
 drop database emart;
+select * from products;
+insert into products values(1,1,1,"Levis Jeans",1700,"Men's dream",10);

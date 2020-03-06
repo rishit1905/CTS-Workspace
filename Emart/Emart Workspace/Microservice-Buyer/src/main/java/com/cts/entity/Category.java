@@ -1,14 +1,12 @@
 package com.cts.entity;
 
-import java.util.List;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+
 import javax.persistence.Table;
 
 @Entity
@@ -17,6 +15,7 @@ public class Category {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "CTID")
 	private int categoryId;
 	
 	@Column(name="CTNM", nullable = false)
@@ -25,24 +24,6 @@ public class Category {
 	@Column(name = "DSCP")
 	private String description;
 	
-	@OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
-	private List<Product> product;
-	
-	@OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
-	private List<SubCategory> subCategory;
-	
-	public List<Product> getProduct() {
-		return product;
-	}
-	public void setProduct(List<Product> product) {
-		this.product = product;
-	}
-	public List<SubCategory> getSubCategory() {
-		return subCategory;
-	}
-	public void setSubCategory(List<SubCategory> subCategory) {
-		this.subCategory = subCategory;
-	}
 	public int getCategoryId() {
 		return categoryId;
 	}
