@@ -12,6 +12,7 @@ import com.cts.entity.Product;
 import com.cts.service.SearchItemService;
 
 @RestController
+@RequestMapping("/search")
 public class SearchItemController {
 
 	@Autowired
@@ -31,10 +32,15 @@ public class SearchItemController {
 	Product searchByName(@PathVariable String productName){
 		return service.searchByName(productName);
 	}
+
+	@RequestMapping("/{categoryName}")
+	List<Product> searchByCategory(@PathVariable String categoryName){
+		return (List<Product>) service.searchByCategory(categoryName);
+	}
 	
-//	searchByCategory(){}
-//	
-//	searchBySubCategory(){}
-//	
+	@RequestMapping("/category/{subCategoryName}")
+	List<Product> searchBySubCategory(@PathVariable String subCategoryName){
+		return (List<Product>) service.searchBySubCategory(subCategoryName);
+	}
 	
 }

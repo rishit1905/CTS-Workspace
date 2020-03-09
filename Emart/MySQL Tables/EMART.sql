@@ -1,7 +1,7 @@
 create table EMART_USERS(
 	UID int primary key auto_increment,
     UNM varchar(30) not null unique,
-    PWD varchar(16000) not null,
+    PWD varbinary(16000) not null,
     ROLE varchar(30) not null
 );
 
@@ -11,12 +11,7 @@ CREATE TABLE CUSTOMERS (
     LNM varchar(150) not null,
 	UID int references EMART_USERS(UID),
     EML varchar(200) not null,
-    MBN char(10) not null,
-    DNO varchar(20) not null,
-    STRT varchar(150) not null,
-    CITY varchar(150) not null,
-    STATE varchar(150) not null,
-    PIN char(6) not null
+    MBN char(10) not null
 );
     
 CREATE TABLE CATEGORIES (
@@ -48,6 +43,7 @@ CREATE TABLE PURCHASE_HISTORY (
     SID int references SELLERS(SID),
     TXNID int references TRANSACTIONS(TXNID),
 	PID int references PRODUCTS(PID),
+    DSID int references DISCOUNTS(DSID),
     QTY int not null,
     PDT date not null
 );
@@ -71,7 +67,7 @@ create table TRANSACTIONS(
 	TXNID int primary key auto_increment,
     CSID int references CUSTOMERS(CSID),
     SID int references SELLERS(SID),
-    TTYPE int not null,
+    TTYPE varchar(12) not null,
     AMT numeric not null,
     TXNDT date not null,
     DSCP varchar(250)
@@ -86,17 +82,19 @@ CREATE TABLE SELLERS(
     ABOUTC varchar(500) not null,
     EML varchar(200) not null,
 	MBN char(10) not null,
-	DNO varchar(20) not null,
-    STRT varchar(150) not null,
-    CITY varchar(150) not null,
-    STATE varchar(150) not null,
-    PIN char(6) not null
+	ADDR varchar(1000) not null
 );
 
 show tables;
 create database emart;
 use emart;
-drop table checkout;
+drop table purchase_history;
 drop database emart;
-select * from products;
+select * from customers;
+describe products;
+delete from products where PID=1;
 insert into products values(1,1,1,"Levis Jeans",1700,"Men's dream",10);
+insert into emart_users values(1,"Rishi","1234abcd","CUSTOMER");
+insert into customers values(1,"Rishi","Fishy",1,"rishi@gmail.com","8765432190");
+
+SELECT * FROM Products WHERE CTID in (SELECT CTID FROM Categories WHERE CTNM="Fashion");

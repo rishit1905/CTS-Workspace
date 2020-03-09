@@ -39,6 +39,7 @@ public class Product {
 	@Column(name="STOCK", nullable = false)
 	private int stock;
 	
+	
 	public int getStock() {
 		return stock;
 	}

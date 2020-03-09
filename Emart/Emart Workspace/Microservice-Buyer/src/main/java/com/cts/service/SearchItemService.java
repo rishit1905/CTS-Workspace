@@ -27,4 +27,12 @@ public class SearchItemService {
 		return (Product) repo.findByProductName(productName);
 	}
 
+	public List<Product> searchByCategory(String categoryName) {
+		return (List<Product>) repo.findAllByCategory(categoryName);
+	}
+
+	public List<Product> searchBySubCategory(String subCategoryName) {
+		return (List<Product>) repo.findAllBySubCategory(subCategoryName);
+	}
+
 }
