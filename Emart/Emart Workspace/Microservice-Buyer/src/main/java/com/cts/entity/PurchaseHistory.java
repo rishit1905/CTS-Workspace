@@ -1,6 +1,7 @@
 package com.cts.entity;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -30,13 +31,12 @@ public class PurchaseHistory {
 	@JoinColumn(name = "SID")
 	private Seller seller;
 
-	@OneToMany(cascade = CascadeType.ALL)
+	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "TXNID")
 	private Transaction transaction;
 
 	@OneToMany(cascade = CascadeType.ALL)
-	@JoinColumn(name = "PID")
-	private Product product;
+	private List<Product> product;
 	
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "DSID")
@@ -52,7 +52,7 @@ public class PurchaseHistory {
 
 	}
 
-	public PurchaseHistory(int purchaseId, Customer customer, Seller seller, Transaction transaction, Product product,
+	public PurchaseHistory(int purchaseId, Customer customer, Seller seller, Transaction transaction, List<Product> product,
 			int quantity, LocalDate purchaseDate) {
 		super();
 		this.purchaseId = purchaseId;
@@ -96,11 +96,11 @@ public class PurchaseHistory {
 		this.transaction = transaction;
 	}
 
-	public Product getProduct() {
+	public List<Product> getProduct() {
 		return product;
 	}
 
-	public void setProduct(Product product) {
+	public void setProduct(List<Product> product) {
 		this.product = product;
 	}
 

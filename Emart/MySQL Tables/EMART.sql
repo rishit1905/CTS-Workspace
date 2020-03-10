@@ -57,12 +57,6 @@ create table DISCOUNTS(
     DSDESC varchar(250)
 );
 
-CREATE TABLE CUSTOMER_CATEGORY (
-    CSID int references CUSTOMERS(CSID),
-    CTID int references CATEGORIES(CTID),
-    PRIMARY KEY(CSID,CTID)
-);
-
 create table TRANSACTIONS(
 	TXNID int primary key auto_increment,
     CSID int references CUSTOMERS(CSID),
@@ -88,13 +82,29 @@ CREATE TABLE SELLERS(
 show tables;
 create database emart;
 use emart;
-drop table purchase_history;
+drop table emart_users;
 drop database emart;
+select * from sellers;
+select * from discounts;
+select * from products;
+select * from emart_users;
+select * from transactions;
+select * from purchase_history;
 select * from customers;
+select * from sub_categories;
 describe products;
-delete from products where PID=1;
+delete from customers where CSID=1;
 insert into products values(1,1,1,"Levis Jeans",1700,"Men's dream",10);
+insert into products values(2,1,1,"Denim Jeans",1500,"Men's love",12);
+insert into categories values(1,"Fashion","Dress your world");
+insert into sub_categories values(1,"Men's Fashion",1,"Men Rock");
+insert into emart_users values(2,"zero","1234ad","SELLER");
 insert into emart_users values(1,"Rishi","1234abcd","CUSTOMER");
-insert into customers values(1,"Rishi","Fishy",1,"rishi@gmail.com","8765432190");
+insert into discounts values(1,"MO100",0.78,'2020-01-01','2020-02-01',"Dicount");
+insert into customers values(1,"Rishi","Fishy",1,'2020-01-01','2020-02-01',"Dicount");
+insert into purchase_history values(1,1,1,1,1,1,5,'2020-01-01');
+insert into transactions values(1,1,1,"CARD",1500,"2020-01-01","Done");
+insert into sellers values(1,"zerofashion",1,"Zero Fashion","123ZF123","Turning lives around","zero@gmail.com","7765432190","Delhi, India");
+update sellers set UID=2 where SID=1;
 
 SELECT * FROM Products WHERE CTID in (SELECT CTID FROM Categories WHERE CTNM="Fashion");

@@ -1992,3 +1992,555 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-09 03:25:40.060
 !MESSAGE executing callback sts4.classpath.GsVYTVly SUCCESS [done]
+!SESSION 2020-03-10 00:23:22.028 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-03-10 00:23:26.560
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2020-03-10 00:23:30.285
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-03-10 00:23:30.285
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35555145,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70bc3a9c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:38.687
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:38.694
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@125c03d3[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:38.703
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:38.751
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-03-10 00:23:41.662
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Alchemy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:46.505
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:46.611
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@125c03d3[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:46.722
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:53.902
+!MESSAGE Boot LS startup time from start to initialized: 7165ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.132
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZfykQpKpisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.260
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZfykQpKp isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.360
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.420
+!MESSAGE subsribers = {sts4.classpath.ZfykQpKp=Send Classpath Notifications(99)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.443
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.456
+!MESSAGE project Microservice-Buyer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.467
+!MESSAGE project Discovery-Server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.508
+!MESSAGE Preparing classpath changed notification Microservice-Buyer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.519
+!MESSAGE project Microservice-Seller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.539
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.554
+!MESSAGE project Microservice-User ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.582
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.595
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.624
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZfykQpKp => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.656
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Microservice-Buyer false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.692
+!MESSAGE Preparing classpath changed notification Discovery-Server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.708
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.765
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.796
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Discovery-Server false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:54.903
+!MESSAGE Preparing classpath changed notification Microservice-Seller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.036
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.173
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.289
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Microservice-Seller false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.331
+!MESSAGE Preparing classpath changed notification Microservice-User
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.372
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.431
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.457
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Microservice-User false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:55.473
+!MESSAGE executing callback sts4.classpath.ZfykQpKp 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:56.840
+!MESSAGE executing callback sts4.classpath.ZfykQpKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:56.857
+!MESSAGE Preparing classpath changed notification Microservice-Buyer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:56.878
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:56.924
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:56.950
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Microservice-Buyer false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:57.158
+!MESSAGE executing callback sts4.classpath.ZfykQpKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:23:58.387
+!MESSAGE executing callback sts4.classpath.ZfykQpKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:00.042
+!MESSAGE Preparing classpath changed notification Microservice-Seller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:00.055
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:00.074
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:00.093
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Microservice-Seller false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:00.107
+!MESSAGE executing callback sts4.classpath.ZfykQpKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:00.123
+!MESSAGE executing callback sts4.classpath.ZfykQpKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:04.603
+!MESSAGE Preparing classpath changed notification Microservice-User
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:04.621
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:04.655
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:04.683
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Microservice-User false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:04.697
+!MESSAGE executing callback sts4.classpath.ZfykQpKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 00:24:04.720
+!MESSAGE executing callback sts4.classpath.ZfykQpKp SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-03-10 00:24:12.316
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-03-10 00:24:56.838
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 01:53:22.791
+!MESSAGE Preparing classpath changed notification Microservice-Seller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 01:53:22.900
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 01:53:22.911
+!MESSAGE buffering callback sts4.classpath.ZfykQpKp Microservice-Seller true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 01:53:22.920
+!MESSAGE executing callback sts4.classpath.ZfykQpKp 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 01:53:22.977
+!MESSAGE executing callback sts4.classpath.ZfykQpKp SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:54:53.520
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZfykQpKp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:54:53.663
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZfykQpKp
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:54:53.678
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:54:53.692
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZfykQpKp => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:54:54.554
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:54:54.561
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@125c03d3[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:54:54.569
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-03-10 02:54:55.765
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:01.926
+!MESSAGE Boot LS startup time from start to initialized: 7347ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.031
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZsPnVGdgisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.040
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZsPnVGdg isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.052
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.064
+!MESSAGE subsribers = {sts4.classpath.ZsPnVGdg=Send Classpath Notifications(757)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.078
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.089
+!MESSAGE project Microservice-Buyer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.099
+!MESSAGE Preparing classpath changed notification Microservice-Buyer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.107
+!MESSAGE project Discovery-Server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.120
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.129
+!MESSAGE project Microservice-User ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.143
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.165
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.178
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZsPnVGdg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.191
+!MESSAGE buffering callback sts4.classpath.ZsPnVGdg Microservice-Buyer false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.211
+!MESSAGE Preparing classpath changed notification Discovery-Server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.225
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.249
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.265
+!MESSAGE buffering callback sts4.classpath.ZsPnVGdg Discovery-Server false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.272
+!MESSAGE Preparing classpath changed notification Microservice-User
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.279
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.298
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.313
+!MESSAGE buffering callback sts4.classpath.ZsPnVGdg Microservice-User false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.322
+!MESSAGE executing callback sts4.classpath.ZsPnVGdg 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:55:02.385
+!MESSAGE executing callback sts4.classpath.ZsPnVGdg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:11.091
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZsPnVGdg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:11.162
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZsPnVGdg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:11.171
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:11.179
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZsPnVGdg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:12.001
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:12.008
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@125c03d3[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:12.016
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.555
+!MESSAGE Boot LS startup time from start to initialized: 2531ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.598
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nLIKCFZBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.612
+!MESSAGE subscribing to classpath changes: sts4.classpath.nLIKCFZB isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.625
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.637
+!MESSAGE subsribers = {sts4.classpath.nLIKCFZB=Send Classpath Notifications(776)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.649
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.664
+!MESSAGE project Microservice-Buyer ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.673
+!MESSAGE Preparing classpath changed notification Microservice-Buyer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.682
+!MESSAGE project Discovery-Server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.689
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.696
+!MESSAGE project Microservice-User ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.705
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.713
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nLIKCFZB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.719
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.737
+!MESSAGE buffering callback sts4.classpath.nLIKCFZB Microservice-Buyer false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.744
+!MESSAGE Preparing classpath changed notification Discovery-Server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.751
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.767
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.781
+!MESSAGE buffering callback sts4.classpath.nLIKCFZB Discovery-Server false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.788
+!MESSAGE Preparing classpath changed notification Microservice-User
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.795
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.810
+!MESSAGE classpath=182 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.826
+!MESSAGE buffering callback sts4.classpath.nLIKCFZB Microservice-User false 182
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.837
+!MESSAGE executing callback sts4.classpath.nLIKCFZB 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 02:56:14.974
+!MESSAGE executing callback sts4.classpath.nLIKCFZB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:11:47.851
+!MESSAGE Preparing classpath changed notification middle-ware
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:11:47.997
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:11:48.017
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:11:48.027
+!MESSAGE buffering callback sts4.classpath.nLIKCFZB middle-ware false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:11:48.038
+!MESSAGE executing callback sts4.classpath.nLIKCFZB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:11:48.072
+!MESSAGE executing callback sts4.classpath.nLIKCFZB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:12:06.124
+!MESSAGE Preparing classpath changed notification middle-ware
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:12:06.136
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:12:06.159
+!MESSAGE classpath=106 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:12:06.245
+!MESSAGE buffering callback sts4.classpath.nLIKCFZB middle-ware false 106
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:12:06.257
+!MESSAGE executing callback sts4.classpath.nLIKCFZB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:12:08.007
+!MESSAGE executing callback sts4.classpath.nLIKCFZB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:20:17.571
+!MESSAGE Preparing classpath changed notification Microservice-User
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:20:17.683
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:20:17.700
+!MESSAGE classpath=183 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:20:17.717
+!MESSAGE buffering callback sts4.classpath.nLIKCFZB Microservice-User false 183
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:20:17.723
+!MESSAGE executing callback sts4.classpath.nLIKCFZB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 03:20:17.749
+!MESSAGE executing callback sts4.classpath.nLIKCFZB SUCCESS [done]
+
+!ENTRY org.eclipse.core.filesystem 4 272 2020-03-10 05:05:32.158
+!MESSAGE Could not write file: D:\registration\userService.
+!STACK 0
+java.nio.file.FileSystemException: D:\registration\userService: Unable to determine if root directory exists
+	at java.nio.file.Files.createDirectories(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:310)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.writeSilently(FileSystemResourceManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.saveMetaInfo(SaveManager.java:1310)
+	at org.eclipse.core.internal.resources.SaveManager.saveMetaInfo(SaveManager.java:1291)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1211)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.filesystem 4 272 2020-03-10 05:24:03.820
+!MESSAGE Could not write file: D:\registration\userService.
+!STACK 0
+java.nio.file.FileSystemException: D:\registration\userService: Unable to determine if root directory exists
+	at java.nio.file.Files.createDirectories(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:310)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.writeSilently(FileSystemResourceManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.saveMetaInfo(SaveManager.java:1310)
+	at org.eclipse.core.internal.resources.SaveManager.saveMetaInfo(SaveManager.java:1291)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1211)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 05:28:50.508
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nLIKCFZB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 05:28:50.548
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nLIKCFZB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 05:28:50.557
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-10 05:28:50.565
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nLIKCFZB => OK
+
+!ENTRY org.eclipse.ui.ide 4 4 2020-03-10 05:28:55.859
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2020-03-10 05:28:55.870
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2020-03-10 05:28:55.870
+!MESSAGE Could not write file: D:\registration\userService.
+!STACK 0
+java.nio.file.FileSystemException: D:\registration\userService: Unable to determine if root directory exists
+	at java.nio.file.Files.createDirectories(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:310)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.writeSilently(FileSystemResourceManager.java:1222)
+	at org.eclipse.core.internal.resources.SaveManager.saveMetaInfo(SaveManager.java:1310)
+	at org.eclipse.core.internal.resources.SaveManager.saveMetaInfo(SaveManager.java:1291)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1195)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2333)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:509)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

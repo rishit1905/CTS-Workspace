@@ -5,7 +5,7 @@ public class EmartUsers {
 	private Integer userId;
 	private String userName;
 	private String password;
-	private Role role;
+	private String role;
 	
 	
 	public Integer getUserId() {
@@ -26,10 +26,10 @@ public class EmartUsers {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Role getRole() {
+	public String getRole() {
 		return role;
 	}
-	public void setRole(Role role) {
+	public void setRole(String role) {
 		this.role = role;
 	}
 

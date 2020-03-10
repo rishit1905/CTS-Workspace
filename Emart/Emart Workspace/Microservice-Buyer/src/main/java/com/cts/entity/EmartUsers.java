@@ -2,14 +2,11 @@ package com.cts.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.cts.model.Role;
 
 @Entity
 @Table(name = "EMART_USERS")
@@ -26,9 +23,8 @@ public class EmartUsers {
 	@Column(name="PWD", nullable = false)
 	private String password;
 	
-	@Enumerated(EnumType.STRING)
 	@Column(name="ROLE", nullable = false)
-	private Role role;
+	private String role;
 	
 	
 	public Integer getId() {
@@ -49,10 +45,10 @@ public class EmartUsers {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Role getRole() {
+	public String getRole() {
 		return role;
 	}
-	public void setRole(Role role) {
+	public void setRole(String role) {
 		this.role = role;
 	}
 	
