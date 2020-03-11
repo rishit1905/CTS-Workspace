@@ -1,0 +1,5 @@
+package com.cts.demo.controller;
+
+public class JwtAuthenticationController {
+
+}

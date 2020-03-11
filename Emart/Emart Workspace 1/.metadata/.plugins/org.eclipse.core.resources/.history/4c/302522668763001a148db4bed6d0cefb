@@ -1,0 +1,51 @@
+package com.cts.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Emart_Users")
+@Embeddable
+public class EmartUsers{
+	
+	@Column(name="UNM", unique = true, nullable=false)
+	private String userName;
+	
+	@Column(name="PWD")
+	private String password;
+	
+	@Column(name="ROLE")
+	private String role;
+	
+	
+	public EmartUsers() {
+	}
+	public EmartUsers(String role) {
+		this.role = role;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
+	
+}
+

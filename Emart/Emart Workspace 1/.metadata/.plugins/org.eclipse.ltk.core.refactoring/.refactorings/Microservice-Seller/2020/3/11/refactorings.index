@@ -1,0 +1,13 @@
+1583925745757	Rename package 'com.emart.seller.entity.service'
+1583925771036	Rename package 'com.emart.seller'
+1583925964899	Rename type 'SearchItemRepository'
+1583926056680	Delete element
+1583926070658	Rename type 'AddItemRepository'
+1583926104802	Rename type 'SearchItemService'
+1583926154742	Delete element
+1583926157883	Delete element
+1583926161443	Delete element
+1583926216343	Rename type 'AddProductController'
+1583926226910	Rename type 'AddProductService'
+1583926236649	Rename type 'AddProductRepository'
+1583929230706	Delete element

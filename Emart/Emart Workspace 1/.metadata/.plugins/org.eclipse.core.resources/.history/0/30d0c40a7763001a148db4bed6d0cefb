@@ -1,0 +1,9 @@
+package com.cts.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cts.entity.Registration;
+
+public interface RegistrationRepository extends JpaRepository<Registration, Integer> {
+    Registration findByUserName(String userName);
+}

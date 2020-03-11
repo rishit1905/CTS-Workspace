@@ -1,0 +1,126 @@
+package com.cts.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.type.TrueFalseType;
+
+@Entity
+@Table(name = "SELLERS")
+public class Sellers {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "SID")
+	Integer id;
+
+	@Column(name = "SNM", unique = true)
+	String userName;
+
+	@Column(name = "PWD")
+	String password;
+
+	@Column(name = "CPNAME")
+	String companyName;
+
+	@Column(name = "EML")
+	String email;
+
+	@Column(name = "MBN")
+	String mobileNumber;
+
+	@Column(name = "GSTIN")
+	String gstin;
+
+	@Column(name = "ABOUTC")
+	String aboutCompany;
+
+	@Column(name = "ADDR")
+	String address;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getCompanyName() {
+		return companyName;
+	}
+
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getMobileNumber() {
+		return mobileNumber;
+	}
+
+	public void setMobileNumber(String mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+
+	public String getGstin() {
+		return gstin;
+	}
+
+	public void setGstin(String gstin) {
+		this.gstin = gstin;
+	}
+
+	public String getAboutCompany() {
+		return aboutCompany;
+	}
+
+	public void setAboutCompany(String aboutCompany) {
+		this.aboutCompany = aboutCompany;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public Sellers(Integer id) {
+
+		this.id = id;
+	}
+
+	public Sellers() {
+		super();
+	}
+
+}

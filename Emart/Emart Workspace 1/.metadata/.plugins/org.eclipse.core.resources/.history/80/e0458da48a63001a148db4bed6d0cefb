@@ -1,0 +1,19 @@
+package com.emart.seller.repository;
+
+import org.springframework.data.repository.CrudRepository;
+import com.emart.seller.entity.Sellers;
+
+public interface SellersRepository extends CrudRepository<Sellers, Integer>{
+
+//	User findByAddress(String address);
+	
+	
+//	@Query(value = "select * from user where name :name", nativeQuery = true)
+//	User findOther(@Param(value = "name") String name);
+	
+	
+}
+
+
+
+//Table <-> Class

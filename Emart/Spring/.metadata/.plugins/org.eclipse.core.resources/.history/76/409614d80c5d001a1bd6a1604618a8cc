@@ -1,0 +1,15 @@
+package com.cts.emart.model;
+
+import java.util.Set;
+
+public class Customer {
+	private int customerId;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String mobileNumber;
+	private Address address;
+	private EmartUsers userAccount;
+	private Set<Transaction> transaction;
+
+}

@@ -1,0 +1,70 @@
+package com.cts.service;
+
+import java.util.Optional;
+
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cts.entity.Product;
+import com.cts.repository.AddProductRepository;
+
+
+
+@Service
+public class SearchItemService {
+
+	@Autowired
+	AddProductRepository repo;
+	
+	public Optional<Product> searchById(Integer id) {
+		return repo.findById(id);
+	}
+
+	public List<Product> getAllProducts() {
+		return (List<Product>) repo.findAll();
+	}
+
+	public Product searchByName(String productName) {
+		return (Product) repo.findByProductName(productName);
+	}
+
+	public List<Product> searchByCategory(String categoryName) {
+		return (List<Product>) repo.findAllByCategory(categoryName);
+	}
+
+	public List<Product> searchBySubCategory(String subCategoryName) {
+		return (List<Product>) repo.findAllBySubCategory(subCategoryName);
+	}
+
+	public void addProduct(Product product) {
+		repo.save(product);
+		
+	}
+
+	public void updateProducts(Product product) {
+		repo.save(product);
+		
+	}
+
+	public void deleteProduct(int id) {
+		repo.deleteById(id);
+		
+	}
+
+	public int getStock(int id) {
+		// TODO Auto-generated method stub
+		return repo.getStockById(id);
+	}
+
+	public void deleteProductByName(String productName) {
+		repo.deleteByItemName(productName);
+	}
+
+	public List<Product> getAllProductsBySellerId(Integer id) {
+		
+		return repo.getAllProductsBySellerId(id);
+	}
+
+
+}
