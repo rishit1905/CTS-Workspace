@@ -1,0 +1,107 @@
+<h2>Add Products To Be Sold</h2>
+<div class="container">
+    <form (ngSubmit)="save()">
+        <div class="row">
+            <div class="col-25">
+                <label for="PNM">Product Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="PNM" name="firstname" [(ngModel)]="product.productName" placeholder="Enter Product name">
+            </div>
+        </div>
+    
+
+        <div class="row">
+            <div class="col-25">
+                <label for="CTID">Category id</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="CTID" name="Category id" [(ngModel)]="product.category.categoryId" placeholder="Enter Category id">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="SBID">SubCategory id</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="SBID" name="SubCategory" [(ngModel)]="product.subCategory.subCategoryId" placeholder="Enter Subcategory id">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="CTID">Seller id</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="CTID" name="Category id" [(ngModel)]="product.seller.sellerId" placeholder="Enter Category id">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="category">CATEGORY</label>
+            </div>
+            <div class="col-75">
+                <select id="category" name="country">
+                    <option value="elc">Electronics</option>
+                    <option value="fs">Fashion</option>
+                    <option value="sps">Sports</option>
+                    <option value="hma">Home Accesories</option>
+                </select>
+            </div>
+        </div>
+
+
+       
+
+        <div class="row">
+            <div class="col-25">
+                <label for="PRICE">Price</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="PRICE" name="Price" [(ngModel)]="product.price" placeholder="Enter price of the product">
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Discount percentage</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="pdis" name="Discount" placeholder="Enter Product Discount percentage">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Product Image</label>
+            </div>
+            <div class="col-75">
+                <input id="filebutton" name="filebutton" class="input-file" type="file">
+            </div>
+        </div>
+ 
+        <div class="row">
+            <div class="col-25">
+                <label for="STOCK">Stock</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="STOCK" name="Discount" [(ngModel)]="product.stock" placeholder="Enter stock">
+            </div>
+        </div>
+        
+
+        <div class="row">
+            <div class="col-25">
+                <label for="PDESC">DESCRIPTION</label>
+            </div>
+            <div class="col-75">
+                <textarea id="subject" name="subject" [(ngModel)]="product.description" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary btn-block">ADD PRODUCT</button>
+        </div>
+    </form>
+</div>

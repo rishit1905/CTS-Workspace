@@ -1,0 +1,19 @@
+package com.cts.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cts.entity.Customer;
+import com.cts.repo.UserRepository;
+
+@Service
+public class UserService {
+
+	@Autowired
+	UserRepository repo;
+	
+	public Object updateUser(Customer customer) {
+		return repo.save(customer);
+	}
+
+}

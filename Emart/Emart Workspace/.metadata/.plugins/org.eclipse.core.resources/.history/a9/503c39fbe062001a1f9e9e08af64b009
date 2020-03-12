@@ -1,0 +1,30 @@
+package com.cts.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cts.entity.Customer;
+import com.cts.service.UserService;
+
+@RestController
+@CrossOrigin
+@RequestMapping("/user")
+public class UserController {
+
+	@Autowired
+	UserService service;
+	
+	@RequestMapping("/update/{customerId}")
+	void updateUser(@RequestBody Customer customer, @PathVariable Integer customerId){
+		service.update(customer);
+		
+	}
+	
+	void deleteUser(){
+		
+	}
+}

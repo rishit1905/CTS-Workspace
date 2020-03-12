@@ -1,0 +1,26 @@
+package com.cts.model;
+
+public class Customer {
+
+	private int customerId;
+	private String firstName;
+	private String lastName;
+	private EmartUsers emartUsers;
+	private String email;
+	private String mobile;
+
+	public Customer(int customerId, String firstName, String lastName, EmartUsers emartUsers, String email,
+			String mobile) {
+		this.customerId = customerId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.emartUsers = emartUsers;
+		this.email = email;
+		this.mobile = mobile;
+	}
+
+	public Customer() {
+	}
+
+	
+}

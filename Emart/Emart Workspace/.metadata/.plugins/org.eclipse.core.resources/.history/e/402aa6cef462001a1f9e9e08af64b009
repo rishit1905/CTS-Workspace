@@ -1,0 +1,29 @@
+package com.cts.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.cts.entity.EmartUsers;
+import com.cts.service.LoginService;
+
+@Repository
+@CrossOrigin
+@RequestMapping("/login")
+public class LoginController {
+
+	@Autowired
+	LoginService service;
+
+	@RequestMapping("/")
+	Iterable<EmartUsers> getAllUsers(){
+		return service.getAllUsers();
+	}
+	
+//	@RequestMapping("/{id}/{userName}")
+//	Optional<EmartUser> searchByUsername(@PathVariable ){
+//		return 
+//	}
+	
+}

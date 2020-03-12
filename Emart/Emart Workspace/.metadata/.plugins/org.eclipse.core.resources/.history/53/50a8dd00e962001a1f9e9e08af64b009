@@ -1,0 +1,31 @@
+package com.cts.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cts.entity.Customer;
+import com.cts.repo.CustomerUserRepository;
+import com.cts.repo.SellerUserRepository;
+
+@Service
+public class SellerUserService {
+
+	@Autowired
+	SellerUserRepository repo;
+	
+	public void updateUser(Customer customer) {
+		 repo.save(customer);
+	}
+
+	public void deleteUser(Integer customerId) {
+		repo.deleteById(customerId);
+		
+	}
+
+	public Iterable<Customer> getAllCustomers() {
+		return repo.findAll();
+	}
+
+}

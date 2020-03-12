@@ -1,0 +1,12 @@
+package com.cts.model;
+
+public class Transaction {
+
+	TXNID int primary key auto_increment,
+    CSID int references CUSTOMERS(CSID),
+    SID int references SELLERS(SID),
+    TTYPE int not null,
+    AMT numeric not null,
+    TXNDT date not null,
+    DSCP varchar(250)
+}

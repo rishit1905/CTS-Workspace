@@ -1,0 +1,18 @@
+package com.cts.model;
+
+public class Seller {
+
+	private int sellerId;
+	private String sellerName;
+    private EmartUsers emartUsers;UID int references EMART_USERS(UID),
+    CPNAME varchar(200) not null unique,
+	GSTIN char(15) not null unique,
+    ABOUTC varchar(500) not null,
+    EML varchar(200) not null,
+	MBN char(10) not null,
+	DNO varchar(20) not null,
+    STRT varchar(150) not null,
+    CITY varchar(150) not null,
+    STATE varchar(150) not null,
+    PIN char(6) not null
+}
