@@ -1,0 +1,28 @@
+<div class="wrapper fadeInDown">
+
+
+  <div class="fadeIn first">
+    <img src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" id="icon" alt="User Icon" />
+  </div>
+
+  <form (ngSubmit)="signIn()">
+
+    <div class="form-group">
+      <label>User Name*</label>
+      <input class="form-control" type="text" id="userName" name="username" placeholder="User name" [(ngModel)]="user.userName" #userName/>
+    </div>
+    <div>
+      <label>Password*</label>
+      <input class="form-control" type="password"  name="password" placeholder="Password" [(ngModel)]="user.password" />
+    </div>
+
+    <button (click)="ngSubmit">Login </button>
+    <!-- <input type="submit" class="fadeIn fourth" value="LOG IN"/> -->
+  </form>
+
+
+  <div id="formFooter">
+    <a class="underlineHover" routerLink="/sellersign">New User ? Sign Up</a>
+  </div>
+
+</div>

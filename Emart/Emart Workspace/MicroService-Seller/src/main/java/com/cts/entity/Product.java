@@ -42,6 +42,18 @@ public class Product {
 	@Column(name = "STOCK", nullable = false)
 	private int stock;
 
+//	@Column(name="IMAGE_URL", nullable = false)
+//	private String photo;
+//	
+//	
+//	public String getPhoto() {
+//		return photo;
+//	}
+//
+//	public void setPhoto(String photo) {
+//		this.photo = photo;
+//	}
+
 	public Integer getProductId() {
 		return productId;
 	}

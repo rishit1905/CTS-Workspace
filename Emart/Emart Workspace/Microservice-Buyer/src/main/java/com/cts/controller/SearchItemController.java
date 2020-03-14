@@ -45,4 +45,8 @@ public class SearchItemController {
 		return (List<Product>) service.searchBySubCategory(subCategoryName);
 	}
 	
+	@RequestMapping("/sr/{search}")
+	List<Product> searchProductBySearchCriteria(@PathVariable String search){
+		return (List<Product>) service.searchProductBySearchCriteria(search);
+	}
 }

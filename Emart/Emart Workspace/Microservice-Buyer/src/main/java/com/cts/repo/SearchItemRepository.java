@@ -20,4 +20,7 @@ public interface SearchItemRepository extends CrudRepository<Product, Integer> {
 	@Query(value = "SELECT * FROM Products p WHERE p.SBID IN(SELECT SBID FROM Sub_Categories c WHERE c.SBNM=:subCategoryName)", nativeQuery = true)
 	List<Product> findAllBySubCategory(String subCategoryName);
 
+	@Query(value = "Select p FROM PRODUCTS p WHERE p.pnm like %:search%")
+	List<Product> findAllBySearch(String search);
+
 }

@@ -1,0 +1,45 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+   
+      <div class="fadeIn first">
+        <img src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" id="icon" alt="User Icon" />
+      </div>
+  
+      <form [formGroup]="loginForm" (ngSubmit)="signIn()">
+            
+            <div class="form-group">
+              <label>User Name*</label>
+              <input class="form-control" formControlName="userName" type="text" [(ngModel)]="emartUsers.userName" #userName/>
+            </div>
+            <div class="error-messages">
+              <ng-container *ngFor="let error of error_messages.userName">
+                <div class="error-message" *ngIf="loginForm.get('userName').hasError(error.type) && 
+          (loginForm.get('userName').dirty || loginForm.get('userName').touched)">
+                  {{ error.message }}
+                </div>
+              </ng-container>
+            </div>
+
+
+        <div class="form-group">
+				<label>Password*</label>
+				<input class="form-control" formControlName="password" type="password" [(ngModel)]="emartUsers.password"/>
+			</div>
+			<div class="error-messages">
+				<ng-container *ngFor="let error of error_messages.password">
+					<div class="error-message" *ngIf="loginForm.get('password').hasError(error.type) && (loginForm.get('password').dirty || loginForm.get('password').touched)">
+						{{ error.message }}
+					</div>
+				</ng-container>
+      </div>
+      
+        <input type="submit" class="fadeIn fourth" value="LOG IN"/>
+      </form>
+  
+     
+      <div id="formFooter">
+        <a class="underlineHover" routerLink="/signup">New User ? Sign Up</a>
+      </div>
+  
+    </div>
+  </div>
